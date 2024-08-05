@@ -1,0 +1,286 @@
+body {
+	font-family: 'Be Vietnam Pro', sans-serif;
+
+
+	background-color: #F5F5F5;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item .nav-link.active.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item .nav-link:focus.dropdown-toggle::after,
+.navbar .navbar-nav .nav-item .nav-link:active.dropdown-toggle::after,
+.nav-sticky .navbar-nav .nav-item .nav-link:hover,
+.nav-sticky .navbar-nav .nav-item .nav-link:active,
+.nav-sticky .navbar-nav .nav-item .nav-link:focus,
+.nav-sticky .navbar-nav .nav-item .nav-link.active,
+.nav-sticky .navbar-nav .nav-item .nav-link.active .dropdown-toggle:after,
+.primary-link:hover,
+.feature-icon,
+.social-list .social-icon:hover,
+.testimonial-box .testi-img .quote-icon,
+.faq .icon {
+	color: #262626 !important;
+	background: #F1F1F3;
+}
+
+.navbar .navbar-nav .nav-item>.nav-link {
+	color: #262626;
+	font-size: 16px;
+	padding: 12px 20px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+
+	background-color: transparent;
+	margin: 0 0px;
+	transition: all 0.3s ease;
+
+}
+
+.btn-login {
+	color: #ffff;
+	background-color: #FF9500;
+	padding: 10px 27px;
+	border-radius: 7px;
+	margin: 2px 2px;
+	font-weight: 500;
+}
+
+.btn-SignUp {
+	margin: 2px 2px;
+	padding: 10px 27px;
+	border-radius: 7px;
+	font-weight: 500;
+}
+
+.btn-SignUp:hover {
+	color: #FF9500;
+
+}
+
+.btn-price {
+	margin: 2px 2px;
+	padding: 10px 27px;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	font-weight: 500;
+
+}
+
+.btn-price:hover {
+	color: #FF9500;
+
+}
+
+img.banr-img {
+	max-width: 100%;
+	height: auto;
+}
+
+#hero .container {
+	padding-top: 60px;
+
+}
+
+.container-text {
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 600;
+}
+
+.container-text-2 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+	.container-text {
+		font-size: 24px;
+		line-height: 36px;
+		font-weight: 600;
+	}
+
+	.container-text-2 {
+		font-size: 14px;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.card-title {
+		margin-top: 1.5rem;
+	}
+}
+
+/* SEC 2*/
+
+.mediabaner {
+	position: relative;
+
+	/* background-image: url(../images/media-banner.png);
+ height: 85vh;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat; */
+
+
+}
+
+.play-btn {
+	position: absolute;
+	z-index: 666;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: transparent;
+	border: 0;
+}
+
+.play-btn:hover {
+	cursor: pointer;
+}
+
+.play-btn:focus {
+	outline: 0;
+}
+
+.card-title-nos {
+	font-weight: 700;
+	font-size: 4.5rem;
+}
+
+.btn-arrow {
+	border: solid 1px #F1F1F3;
+	border-radius: 5px;
+	padding: 20px 25px;
+	background-color: #FFFFFF;
+}
+
+
+.btn-arrow:hover {
+	cursor: pointer;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #FF9500;
+	border-color: #FF9500;
+}
+
+.btn-primary:hover {
+	color: #000000;
+	background-color: #FF9500;
+	border-color: #FF9500;
+}
+
+.btn-outline-secondary {
+	font-weight: 500;
+	color: #4C4C4D;
+	border: solid 2px #F1F1F3;
+}
+
+.btn-secondary {
+	font-weight: 500;
+	color: #262626;
+
+	background-color: #F7F7F8;
+}
+
+
+.pricing {
+	background: #ffff;
+
+}
+
+.pricing .card {
+	border: none;
+	border-radius: 1rem;
+	transition: all 0.2s;
+
+}
+
+.pricing hr {
+	margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+	margin: 0.5rem 0;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	background-color: #FFF9F0;
+	border: solid 2px #FFEACC;
+	padding: 13px;
+}
+
+.pricing .card-title-2 {
+	margin: 0.5rem 0;
+	letter-spacing: .1rem;
+	font-weight: bold;
+
+	padding: 13px;
+}
+
+.pricing .card-price {
+	font-size: 4.5rem;
+	margin: 0;
+}
+
+.pricing .card-price .period {
+	font-size: 0.8rem;
+}
+
+.pricing ul li {
+	margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+	opacity: 0.7;
+}
+
+.pricing .btn {
+	font-size: 100%;
+
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: 1rem;
+	opacity: 0.7;
+	transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+	.pricing .card:hover {
+		margin-top: -.25rem;
+		margin-bottom: .25rem;
+		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.pricing .card:hover .btn {
+		opacity: 1;
+	}
+}
+
+.link-dark {
+	color: #212529;
+}
+
+.bg-dark {
+	background-color: #FF9500 !important;
+}
+
+.adv {
+	font-weight: 500;
+}
+
+.ad h5 {
+	font-size: 1rem;
+}
+
+h5.card-title.ms-auto {
+	font-weight: 400;
+}
